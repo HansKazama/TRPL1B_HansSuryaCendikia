@@ -2,14 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package farhan010423;
+package Hans010423;
 
 /**
  *
- * @author hp
+ * @author ACER
  */
 public class StudentRecord {
-    private String name; 
+    protected String name; 
     private String address; 
     private int age; 
     private double mathGrade; 

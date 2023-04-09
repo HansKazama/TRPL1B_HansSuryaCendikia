@@ -1,34 +1,16 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-package Hans300323;
+package Rifa300323;
 
 /**
  *
- * @author ACER
+ * @author LABP1KOMP
  */
-
 public class AritmatikaExample {
-    
     public static void main(String[] args) {
-        Aritmatika aritmatika = new Aritmatika();
         
-        int[] angka = {1, 2, 3, 4, 5};
-        
-        // memanggil method tambah untuk menghitung jumlah semua angka dalam array
-        int total = 0;
-        for (int i = 0; i < angka.length; i++) {
-            total = aritmatika.tambah(total, angka[i]);
-        }
-        System.out.println("Total angka dalam array: " + total);
-        
-        // memanggil method ganjil untuk menampilkan semua angka ganjil dalam array
-        System.out.println("Angka-angka ganjil dalam array:");
-        for (int i = 0; i < angka.length; i++) {
-            if (aritmatika.ganjil(angka[i])) {
-                System.out.println(angka[i]);
-            }
-        }
     }
 }

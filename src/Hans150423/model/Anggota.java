@@ -9,45 +9,34 @@ package Hans150423.model;
  * @author ASUS
  */
 public class Anggota {
-    private String nobp;
+     private String nobp;
     private String nama;
     private String alamat;
     
-    public Anggota(){
-        
-    }
+    public Anggota(){}
     
-    public Anggota (String nobp, String nama, String alamat){
+    public Anggota(String nobp, String nama, String almat){
         this.nobp = nobp;
         this.nama = nama;
-        this.alamat = alamat;
-    }
-    public String getNobp(){
-        return nobp;
+        this.alamat = almat;
     }
     
     public void setNobp(String nobp){
         this.nobp = nobp;
     }
-    
-    public String getNama(){
-        return nama;
-    }
-    
     public void setNama(String nama){
         this.nama = nama;
     }
-    
-    public String getAlamat(){
-        return alamat;
-    }
-    
     public void setAlamat(String alamat){
         this.alamat = alamat;
     }
-    
-}
-
-    public void tampilData(){
-        DefaultTabelModel.tabelModel 
+    public String getNobp(){
+        return nobp;
+    }
+    public String getNama(){
+        return nama;
+    }
+    public String getAlamat(){
+        return alamat;
+    }
 }
